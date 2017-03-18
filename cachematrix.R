@@ -59,3 +59,10 @@ cacheSolve <- function(x, ...) {
 ## [,1]       [,2]
 ## [1,] 0.03571429  0.2142857
 ## [2,] 0.14285714 -0.1428571
+## try changing the matrix
+## > x <- rbind(c(-2, -2), c(0, 3))
+## > testmatrix <- makeCacheMatrix(x)
+## > cacheSolve(testmatrix)
+## [,1]       [,2]
+## [1,] -0.5 -0.3333333
+## [2,]  0.0  0.3333333
