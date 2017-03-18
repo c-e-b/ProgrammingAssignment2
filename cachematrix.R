@@ -1,6 +1,7 @@
+## coded by Carl
+
 ## Requirements: "For this assignment, assume that the matrix supplied is always invertible."
 ## solve(X) doesn't work if it's not invertible - I guess
-## 
 
 ## The first function creates a special "matrix" object that can cache its inverse.
 ## Like in the given example makeVector it creates a list contatining a function to
@@ -40,7 +41,7 @@ cacheSolve <- function(x, ...) {
 }
 
 #### example input and output for using/testing this R-script
-#### @self: don't forget to run the functions first
+#### @self: don't forget to run the functions (all lines) first
 #### this whole example part is more for myself to remember in a few months than the peer who grades my script
 ### read it and use the inputs (lines with > in front of them) to try it if you like :)
 ## > x <- rbind(c(4, 6), c(4, -1))
